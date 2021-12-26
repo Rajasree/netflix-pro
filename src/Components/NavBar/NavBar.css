@@ -1,0 +1,14 @@
+.navbar{
+  position: fixed;
+  width: 5px;
+}
+.netflix-logo{
+  position: fixed;
+  left: 0px;
+  width: 100px;
+}
+.avatar-logo{
+  position: fixed;
+  right: 20px;
+  width: 50px;
+}
