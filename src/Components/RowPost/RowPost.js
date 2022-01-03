@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import "./RowPost.css";
-//import YouTube from 'react-youtube'
+import YouTube from 'react-youtube'
 import axios from '../../axios.js'
 import {API_KEY,imageUrl} from '../../constants/constants.js'
 
@@ -41,7 +41,7 @@ function RowPost() {
             <img onClick={() => handleMovie(obj.id)} className='poster' alt='poster' src={`${imageUrl+obj.backdrop_path}`} />
             )}
           </div>
-          
+          <YouTube opts={opts} videoId="2g811Eo7K8U" />
       </div>
   )
 }
